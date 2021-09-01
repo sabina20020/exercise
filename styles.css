@@ -1,0 +1,111 @@
+body{
+    background-image: url(turnulberarilor.gif.png);
+    background-repeat: no-repeat;
+    background-size: 40cm;
+    background-position: right top;
+    background-attachment: fixed;
+    
+    }
+    h1{
+        color:brown;
+        text-underline-position: above;
+        text-align: center;
+        text-decoration: double;
+    }
+    ul {
+        list-style-type:none;
+        margin:0px;
+        padding: 0px;;
+        overflow:hidden;
+    }
+    li {
+        float:left;
+    }
+    a:link,a:visited {
+        display:block;
+        width:120px;
+        font-weight:bold;
+        font-size:17px;
+        color:#FFFFFF;
+        background-color:#d2691e;
+        text-align:center;
+        padding:14px;
+        text-decoration:none;
+    }
+    a:hover,a:active {
+        background-color:#daa520;
+        align-items: center;
+    }
+    
+  p{
+      text-align: center;
+      font-style:normal;
+      font-size:x-large;
+      font-family:fantasy;
+      color: brown;
+  }
+   h1{
+       text-align: center;
+       color: brown;
+   }
+  
+  p{
+       text-align: center;
+       color: brown;
+   }
+   img{
+       image: url(about-caruta.jpg);
+       border-radius: 50%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   h2{
+     
+       color:brown;
+   }
+   
+   img{
+       image: url(about-bar.jpg);
+       border-radius: 50%;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   h1{
+       text-align:left;
+   }
+   ol{
+       list-style-type:none ;
+    text-align:left;
+        background: #ff9999;
+        padding: 20px;
+        
+  margin-left: 35px;
+       
+   }
+   ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+   div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
